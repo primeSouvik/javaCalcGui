@@ -1,10 +1,18 @@
+/**
+* The calc.java is simple java swing based gui caclulator,
+* to complile javac Calc.java
+* to run java Calc
 
+* @author  Souvik Mondal
+* @version 1.0
+* @since   05-05-2020 
+*/
 import javax.swing.*;
 import javax.swing.JFrame;
 import java.awt.*;  
 import java.awt.event.*; 
 
-public class calc {
+public class Calc {
 
 	private JFrame frame;
 	private JTextField textField;
@@ -25,7 +33,7 @@ public class calc {
 	}
 
 
-	public calc() 
+	public Calc() 
 	{
 
 		frame = new JFrame();
