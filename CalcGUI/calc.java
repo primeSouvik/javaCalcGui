@@ -23,7 +23,7 @@ public class Calc {
 //		EventQueue.invokeLater(new Runnable() {
 //			public void run() {
 				try {
-					calc window = new calc();
+					Calc window = new Calc();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					
